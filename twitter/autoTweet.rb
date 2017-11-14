@@ -47,5 +47,9 @@ rescue => error
 	now = Time.new
 	out.output(now.strftime("%Y/%m/%d %H:%M:%S"))
 	out.output(error)
+	return -1
 end
+
+#正常な戻り
+return 0
 
