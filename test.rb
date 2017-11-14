@@ -1,0 +1,2 @@
+print("ruby test\n")
+
